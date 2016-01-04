@@ -11,4 +11,5 @@
 #hero .header .hero-text .dark-giant-title h1 {
   line-height: 153%;
   margin: 0;
+  padding: 0 5px;
 }
