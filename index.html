@@ -24,17 +24,6 @@
     <!-- /Loader -->
 
     <header>
-      <!-- Dropdown Structure -->
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#userwords">Customer's words</a></li>
-        <li><a href="#tutorial">Tutorial</a></li>
-        <li><a href="#details">Details</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#slider">Slider</a></li>
-        <li><a href="#team">Team</a></li>
-        <li class="divider"></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
 
 
       <!-- Main Nav -->
@@ -46,8 +35,9 @@
             <li><a href="#home">Home</a></li>
             <!-- Dropdown Trigger -->
             <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
             <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Sections<i class="material-icons right">arrow_drop_down</i></a></li>
           </ul>
 
           <!-- Mobile Menu -->
@@ -77,16 +67,14 @@
         <div class="container">
           <div class="hero-text valign">
             <div class="row">
-              <h2 class="light white-text">Complex Products?</h2>
+              <h2 class="light white-text"></h2>
               <div class="dark-giant-title">
-                <!-- <h1 class="white-text text-lighten-2"><span class="text-highlight">Dev shop with growth and design in mind</span></h1> -->
+                <h1 class="white-text text-lighten-2"><span class="text-highlight">Complex Products?</span></h1>
               </div>
               <h6 class="light black-text"><span class='text-highlight'>Developers with growth and design in mind</span></h6>
-              <p class="light black-text white-bg"><span>We're a development firm that creates digital applications and websites for complex technologies so your audience can easily understand.
-                  Focus on your products and innovations, and let us create engaging sites for your users.</span></p>
             </div>
             <div class="row">
-              <a href="#contact" class="btn-large waves-effect waves-light red lighten-1" target="_blank">Get started!</a>
+              <a href="#about" class="btn-large waves-effect waves-light red lighten-1" target="_blank">Get started!</a>
             </div>
           </div>
         </div>
@@ -100,12 +88,18 @@
         <div class="section pt-section" data-name="About" id="ptsection-three">
           <!--   Icon Section   -->
           <div class="row">
+            <div class="col s12 l12">
+              <p class="center light">
+                <strong>
+              We're a development firm that creates digital applications and websites for complex technologies so your audience can easily understand.
+                  Focus on your products and innovations, and let us create engaging sites for your users. </strong>
+              </p>
+            </div>
             <div class="col s12 l4">
               <div class="icon-block">
                 <h2 class="center red-text"><i class="material-icons">language</i></h2>
                 <h4 class="center light">Design</h4>
                 <p class="center light">
-                  Curabitur eu nulla eget ligula laoreet auctor. Integer eu ultricies justo. Integer tortor nunc, tempor rutrum elementum vel, porttitor ac leo.
                 </p>
               </div>
               <div class="divider4"></div>
@@ -116,7 +110,6 @@
                 <h2 class="center red-text"><i class="material-icons">chat_bubble_outline</i></h2>
                 <h4 class="center light">Implementation</h4>
                 <p class="center light">
-                  Curabitur eu nulla eget ligula laoreet auctor. Integer eu ultricies justo. Integer tortor nunc, tempor rutrum elementum vel, porttitor ac leo.
                 </p>
               </div>
               <div class="divider4"></div>
@@ -127,17 +120,11 @@
                 <h2 class="center red-text"><i class="material-icons">track_changes</i></h2>
                 <h4 class="center light">Feedback</h4>
                 <p class="center light">
-                  Curabitur eu nulla eget ligula laoreet auctor. Integer eu ultricies justo. Integer tortor nunc, tempor rutrum elementum vel, porttitor ac leo.
                 </p>
               </div>
               <div class="divider4"></div>
             </div>
           </div>
-
-          <div class="row center">
-            <a href="#contact" class="btn-large waves-effect waves-light red lighten-1" >Get Started!</a>
-          </div>
-
         </div>
       </div>
     </section>
@@ -162,9 +149,8 @@
                       <div><h6 class="black-text light">Julia Kann</h6></div>
                     </div>
                     <div class="col s8 left-align">
-                      <span class="red-text">"Exellent..."</span>
+                      <span class="red-text">"Excellent..."</span>
                       <p class="black-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod suscipit massa at egestas. Vestibulum elementum libero et arcu dictum tincidunt. Maecenas id rhoncus urna.
                       </p>
                     </div>
                   </div>
@@ -180,7 +166,6 @@
                     <div class="col s8 left-align">
                       <span class="red-text">"100% Satisfied..."</span>
                       <p class="black-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod suscipit massa at egestas. Vestibulum elementum libero et arcu dictum tincidunt. Maecenas id rhoncus urna.
                       </p>
                     </div>
                   </div>
@@ -189,7 +174,7 @@
             </div>
             <div class="row center">
               <div class="col m12">
-                <a class="btn-floating btn-large waves-effect waves-light red" href="#feedback"><i class="material-icons">add</i></a>
+                <!-- <a class="btn-floating btn-large waves-effect waves-light red" href="#feedback"><i class="material-icons">add</i></a> -->
               </div>
             </div>
           </div>
@@ -198,61 +183,6 @@
       </div>
     </section>
 
-
-    <!-- Feedback Block -->
-    <section id="contact" class="blue-grey darken-3">
-      <div class="section pt-section" data-name="Contacts" id="ptsection-seven">
-        <div class="container">
-          <h3 class="center light white-text">Contact Us</h3>
-          <p class="center  white-text light">
-            What sets us apart from other development firms is that we only select clients we truly believe in. We believe that our success comes from the long term relationships that we have developed with our clients and startups. Therefore our partnerships drive from trusted connections, where we at Code Corgi then invest resources and development into innovate teams building on their complex visions.
-          </p>
-          <p class="center  white-text light">
-            For more information send us an email to info@codecorgi.co.
-          </p>
-          <!--          <div class="divider4"></div> -->
-          <!--          <div class="row"> -->
-          <!--            <div class="col s12 m12 l6">&nbsp; -->
-          <!--              <div class="embed-responsive embed-responsive-4by3"> -->
-          <!--                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387157.48218081944!2d-73.97968099999999!3d40.703312749999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2s!4v1437846920201" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-          <!--              </div> -->
-          <!--              <div class="divider4"></div> -->
-          <!--            </div> -->
-          <!--            <form class="col s12 m12 l5 offset-l1"> -->
-          <!--              <div class="row"> -->
-          <!--                <div class="input-field col s12 m6"> -->
-          <!--                  <input id="first_name" type="text" class="validate" length="10"> -->
-          <!--                  <label for="first_name">First Name</label> -->
-          <!--                </div> -->
-          <!--                <div class="input-field col s12 m6"> -->
-          <!--                  <input id="last_name" type="text" class="validate" length="10"> -->
-          <!--                  <label for="last_name">Last Name</label> -->
-          <!--                </div> -->
-          <!--              </div> -->
-          <!--              <div class="row"> -->
-          <!--                <div class="input-field col s12"> -->
-          <!--                  <input id="email" type="email" class="validate"> -->
-          <!--                  <label for="email">Email</label> -->
-          <!--                </div> -->
-          <!--              </div> -->
-          <!--              <div class="row"> -->
-          <!--                <div class="input-field col s12 m6"> -->
-          <!--                  <input id="input_text" type="text" length="10"> -->
-          <!--                  <label for="input_text">Message theme</label> -->
-          <!--                </div> -->
-          <!--              </div> -->
-          <!--              <div class="row"> -->
-          <!--                <div class="input-field col s12"> -->
-          <!--                  <textarea id="textarea1" class="materialize-textarea" length="120"></textarea> -->
-          <!--                  <label for="textarea1">Message Text</label> -->
-          <!--                </div> -->
-          <!--              </div> -->
-          <!--              <button class="btn btn-large waves-effect waves-light orange" type="submit" name="#!">Submit</button> -->
-          <!--            </form> -->
-          <!--          </div> -->
-        </div>
-      </div>
-    </section>
 
 
     <!-- Team Block -->
@@ -299,7 +229,7 @@
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Dvid Silva<i class="material-icons right">close</i></span>
                   <p class="grey-text text-darken-4 light">
-                    David Silva is been a developer for over 7 years, managing teams and creating applications ranging in industries such as finance, 
+                    David Silva is been a developer for over 7 years, managing teams and creating applications ranging in industries such as finance,
                     healthtech, mobile, and media. Prefers to work in full stack js.
                   </p>
                   <ul class="socials valign-wrapper">
@@ -381,6 +311,62 @@
         </div>
       </div>
       <div class="parallax"><img src="assets/custom/images/f-bg04-01.jpg" alt="Unsplashed background img 2"></div>
+    </section>
+
+
+    <!-- Feedback Block -->
+    <section id="contact" class="blue-grey darken-3">
+      <div class="section pt-section" data-name="Contacts" id="ptsection-seven">
+        <div class="container">
+          <h3 class="center light white-text">Contact Us</h3>
+          <p class="center  white-text light">
+            What sets us apart from other development firms is that we only select clients we truly believe in. We believe that our success comes from the long term relationships that we have developed with our clients and startups. Therefore our partnerships drive from trusted connections, where we at Code Corgi then invest resources and development into innovate teams building on their complex visions.
+          </p>
+          <p class="center  white-text light">
+            For more information send us an email to info@codecorgi.co.
+          </p>
+          <!--          <div class="divider4"></div> -->
+          <!--          <div class="row"> -->
+          <!--            <div class="col s12 m12 l6">&nbsp; -->
+          <!--              <div class="embed-responsive embed-responsive-4by3"> -->
+          <!--                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387157.48218081944!2d-73.97968099999999!3d40.703312749999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2s!4v1437846920201" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+          <!--              </div> -->
+          <!--              <div class="divider4"></div> -->
+          <!--            </div> -->
+          <!--            <form class="col s12 m12 l5 offset-l1"> -->
+          <!--              <div class="row"> -->
+          <!--                <div class="input-field col s12 m6"> -->
+          <!--                  <input id="first_name" type="text" class="validate" length="10"> -->
+          <!--                  <label for="first_name">First Name</label> -->
+          <!--                </div> -->
+          <!--                <div class="input-field col s12 m6"> -->
+          <!--                  <input id="last_name" type="text" class="validate" length="10"> -->
+          <!--                  <label for="last_name">Last Name</label> -->
+          <!--                </div> -->
+          <!--              </div> -->
+          <!--              <div class="row"> -->
+          <!--                <div class="input-field col s12"> -->
+          <!--                  <input id="email" type="email" class="validate"> -->
+          <!--                  <label for="email">Email</label> -->
+          <!--                </div> -->
+          <!--              </div> -->
+          <!--              <div class="row"> -->
+          <!--                <div class="input-field col s12 m6"> -->
+          <!--                  <input id="input_text" type="text" length="10"> -->
+          <!--                  <label for="input_text">Message theme</label> -->
+          <!--                </div> -->
+          <!--              </div> -->
+          <!--              <div class="row"> -->
+          <!--                <div class="input-field col s12"> -->
+          <!--                  <textarea id="textarea1" class="materialize-textarea" length="120"></textarea> -->
+          <!--                  <label for="textarea1">Message Text</label> -->
+          <!--                </div> -->
+          <!--              </div> -->
+          <!--              <button class="btn btn-large waves-effect waves-light orange" type="submit" name="#!">Submit</button> -->
+          <!--            </form> -->
+          <!--          </div> -->
+        </div>
+      </div>
     </section>
 
 
