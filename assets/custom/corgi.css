@@ -8,3 +8,7 @@
 .hero-bg01 {
   background-position: left bottom;
 }
+#hero .header .hero-text .dark-giant-title h1 {
+  line-height: 153%;
+  margin: 0;
+}
