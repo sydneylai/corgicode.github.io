@@ -16,3 +16,21 @@
 #hero .header .hero-text .dark-giant-title h1 span {
   padding: 0 5px;
 }
+@media (max-width: 840px) {
+  #hero .header .hero-text .dark-giant-title h1 {
+    line-height: 2em;
+    height: 1em;
+    display: none;
+  }
+  .brand-logo img {
+    max-width: none;
+  }
+  #hero .header .hero-text h6 span {
+    line-height: 2em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  section#slider .text-highlight, section#video-bg .text-highlight, #hero .text-highlight {
+    font-size: 30px !important;
+  }
+}
