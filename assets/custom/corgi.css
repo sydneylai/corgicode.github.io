@@ -2,6 +2,11 @@
   max-width: 100%;
   max-height: 80px;
 }
+#hero .header .hero-text .dark-giant-title .text-highlight {
+  padding: 0;
+  padding-right: 30px;
+  font-weight: 400;
+}
 .white-bg {
   background: white;
 }
@@ -9,28 +14,39 @@
   background-position: left bottom;
 }
 #hero .header .hero-text .dark-giant-title h1 {
-  line-height: 153%;
   margin: 0;
   padding: 0 5px;
 }
-#hero .header .hero-text .dark-giant-title h1 span {
-  padding: 0 5px;
+
+#hero .header .hero-text h6 span {
+  padding: 10px 10px 0 0;
 }
 @media (max-width: 840px) {
   #hero .header .hero-text .dark-giant-title h1 {
-    line-height: 2em;
-    height: 1em;
-    display: none;
+    /* line-height: 2em; */
+    /* height: 1em; */
+    /* display: none; */
   }
   .brand-logo img {
     max-width: none;
   }
   #hero .header .hero-text h6 span {
-    line-height: 2em;
+    /* line-height: 2em; */
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   section#slider .text-highlight, section#video-bg .text-highlight, #hero .text-highlight {
-    font-size: 30px !important;
+    /* font-size: 30px !important; */
+  }
+  #hero .header .hero-text .dark-giant-title .text-highlight, #hero .header .hero-text .dark-giant-title h1 {
+    font-size: 40px;
+    line-height: 47px;
+  }
+  #hero .header .hero-text h6 {
+    margin-top: 2rem;
+  }
+  #hero .header .hero-text h6 span {
+    display: block;
+    text-align: center;
   }
 }
