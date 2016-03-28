@@ -6,6 +6,9 @@
   padding: 0;
   padding-right: 30px;
   font-weight: 400;
+  color: black;
+  background: transparent;
+  text-transform: none;
 }
 .white-bg {
   background: white;
